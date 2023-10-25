@@ -1,0 +1,35 @@
+/* always apply flex on parent not on child */
+
+.container{
+display: flex;
+/* justify content property always work on Main Axis */
+/* to move content to right side */
+/* justify-content: end; */
+
+/* to move content to left side  */
+/* justify-content: start; */
+
+/*to move content to center  */
+/* justify-content: center; */
+
+/* to give equal space to everyone but sides are low as compare to others*/
+/* justify-content: space-around; */
+
+/* to give space only in center not on sides */
+/* justify-content: space-between; */
+
+/* to give equal space to everyone  */
+justify-content: space-evenly;
+}
+
+.Box-1{
+width: 25%;
+}
+
+.Box-2{
+width: 25%;
+}
+
+.Box-3{
+width: 25%;
+}
