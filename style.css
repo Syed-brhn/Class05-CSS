@@ -22,14 +22,22 @@ display: flex;
 justify-content: space-evenly;
 }
 
+/* flex to adjust content as per your need */
 .Box-1{
 width: 25%;
+flex: 1;
+/* to give priority its value also in minus like -1*/
+order: 3;
 }
 
 .Box-2{
 width: 25%;
+flex:2;
+order: 1;
 }
 
 .Box-3{
 width: 25%;
+flex: 1;
+order: 2;
 }
